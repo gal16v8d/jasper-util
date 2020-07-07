@@ -33,16 +33,15 @@ public class JasperObject {
      */
     private String message;
 
-    public JasperObject(List<?> dataList, String reportFilePath, Map<String, Object> parameters,
-            String reportOutPath) {
+    public JasperObject(List<?> dataList, String reportFilePath, Map<String, Object> parameters, String reportOutPath) {
         this.dataList = dataList;
         this.reportFilePath = reportFilePath;
         this.parameters = parameters;
         this.reportOutPath = reportOutPath;
     }
 
-	public JasperObject(List<?> dataList, String reportFilePath, String reportOutPath) {
-		this(dataList, reportFilePath, new HashMap<>(), reportOutPath);
+    public JasperObject(List<?> dataList, String reportFilePath, String reportOutPath) {
+        this(dataList, reportFilePath, new HashMap<>(), reportOutPath);
     }
 
     public JasperObject(List<?> dataList) {

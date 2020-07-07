@@ -10,9 +10,9 @@ import co.com.gsdd.constants.JasperConstants;
  */
 public class OutFilePathException extends Exception {
 
-	private static final long serialVersionUID = 3628475488779441649L;
+    private static final long serialVersionUID = 3628475488779441649L;
 
-	public OutFilePathException() {
+    public OutFilePathException() {
         super(JasperConstants.ERROR_JASPER_OUTPUT_PATH);
     }
 }
