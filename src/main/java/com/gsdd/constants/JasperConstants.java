@@ -1,4 +1,4 @@
-package co.com.gsdd.constants;
+package com.gsdd.constants;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

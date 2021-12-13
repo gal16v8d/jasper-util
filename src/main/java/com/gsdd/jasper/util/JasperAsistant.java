@@ -1,4 +1,4 @@
-package co.com.gsdd.jasper.util;
+package com.gsdd.jasper.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
@@ -7,15 +7,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
-
-import co.com.gsdd.constants.JasperConstants;
-import co.com.gsdd.exception.TechnicalException;
-import co.com.gsdd.jasper.util.exception.OutFilePathException;
-import co.com.gsdd.jasper.util.exception.ReportFilePathException;
-import co.com.gsdd.validatorutil.ValidatorUtil;
+import com.gsdd.constants.JasperConstants;
+import com.gsdd.exception.TechnicalException;
+import com.gsdd.jasper.util.exception.OutFilePathException;
+import com.gsdd.jasper.util.exception.ReportFilePathException;
+import com.gsdd.validatorutil.ValidatorUtil;
 import net.sf.jasperreports.engine.JRExporterParameter;
 import net.sf.jasperreports.engine.JasperCompileManager;
 import net.sf.jasperreports.engine.JasperExportManager;

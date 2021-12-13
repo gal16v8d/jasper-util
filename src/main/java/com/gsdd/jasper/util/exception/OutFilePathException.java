@@ -1,6 +1,6 @@
-package co.com.gsdd.jasper.util.exception;
+package com.gsdd.jasper.util.exception;
 
-import co.com.gsdd.constants.JasperConstants;
+import com.gsdd.constants.JasperConstants;
 
 /**
  * 
