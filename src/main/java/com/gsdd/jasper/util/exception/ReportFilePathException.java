@@ -10,10 +10,10 @@ import com.gsdd.constants.JasperConstants;
  */
 public class ReportFilePathException extends Exception {
 
-    private static final long serialVersionUID = -5522782110087130068L;
+  private static final long serialVersionUID = -5522782110087130068L;
 
-    public ReportFilePathException() {
-        super(JasperConstants.ERROR_JASPER_REPORT_PATH);
-    }
+  public ReportFilePathException() {
+    super(JasperConstants.ERROR_JASPER_REPORT_PATH);
+  }
 
 }
