@@ -39,7 +39,7 @@
 
 		<checkstyle.version>10.1</checkstyle.version>
 
-		<lombok.version>1.18.22</lombok.version>
+		<lombok.version>1.18.24</lombok.version>
 		<jasperreports.version>4.5.1</jasperreports.version>
 		<itext.version>2.1.7</itext.version>
 		<commons.beanutils.version>1.8.0</commons.beanutils.version>
